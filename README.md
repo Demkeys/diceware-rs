@@ -10,3 +10,4 @@ Simple passphrase generator that uses the diceware method. The wordlist has been
 ---
 ### TODO
 - [ ] More customization options using clap to provide functionality for flags and agrs.
+- [ ] Set up a way to install binary via cargo install.
