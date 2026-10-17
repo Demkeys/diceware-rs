@@ -10,4 +10,16 @@ Simple passphrase generator that uses the diceware method. The wordlist has been
 ---
 ### TODO
 - [ ] More customization options using clap to provide functionality for flags and agrs.
+  - [ ] Case (--case)
+    - [ ] camelCase
+    - [ ] kebab-case
+    - [ ] snake_case
+    - [ ] PascalCase
+    - [ ] SCREAMING_SNAKE_CASE
+  - [ ] Include numbers (--numbers)
+    - [ ] Attached to one of the words (attached)
+    - [ ] Separate from all the words (separate)
 - [ ] Set up a way to install binary via cargo install.
+
+
+
