@@ -23,6 +23,7 @@ cargo install --git https://github.com/Demkeys/diceware-rs
   - [ ] Include numbers (--numbers)
     - [ ] Attached to one of the words (attached)
     - [ ] Separate from all the words (separate)
+- [ ] Allow persistent custom settings via TOML config file.
 - [x] Set up a way to install binary via cargo install.
   - Turns out this was already possible since this is a binary crate. Specifically using
   ```
