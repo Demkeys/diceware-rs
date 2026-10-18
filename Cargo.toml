@@ -2,6 +2,9 @@
 name = "diceware-rs"
 version = "0.1.0"
 edition = "2024"
+authors = ["Demkeys"]
+description = "A CLI passphrase generator that uses the diceware method."
+license = "MIT"
 
 [dependencies]
 rand = "0.10.3"

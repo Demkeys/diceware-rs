@@ -5,7 +5,11 @@ Simple passphrase generator that uses the diceware method. The wordlist has been
 ![](./diceware-screenshot.png)
 
 ### Usage
-- Binary is in the 'tools' dir. It can be downloaded and run. Program will generate a passphrase, print it out and exit.
+- Install via cargo:
+```
+cargo install --git https://github.com/Demkeys/diceware-rs
+```
+- Run 'diceware-rs'
 
 ---
 ### TODO
@@ -19,7 +23,11 @@ Simple passphrase generator that uses the diceware method. The wordlist has been
   - [ ] Include numbers (--numbers)
     - [ ] Attached to one of the words (attached)
     - [ ] Separate from all the words (separate)
-- [ ] Set up a way to install binary via cargo install.
+- [x] Set up a way to install binary via cargo install.
+  - Turns out this was already possible since this is a binary crate. Specifically using
+  ```
+  cargo install --git <repo link>
+  ```
 
 
 
