@@ -9,7 +9,7 @@ Simple passphrase generator that uses the diceware method. The wordlist has been
 ```
 cargo install --git https://github.com/Demkeys/diceware-rs
 ```
-- Run 'diceware-rs'
+- Run 'diceware-rs'. Program will generate a passphrase, print it out and exit.
 
 ---
 ### TODO
